@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Heart, Linkedin, Mail, Phone, ArrowUp } from "lucide-react";
+import { Heart, Linkedin, Mail, Phone, ArrowUp, Github } from "lucide-react";
 
 export function Footer() {
   const scrollToTop = () => {
@@ -30,6 +30,12 @@ export function Footer() {
       href: "tel:+917735239951",
       label: "Phone"
     }
+      ,
+      {
+        icon: Github,
+        href: "https://github.com/iamsumansethi78-sudo",
+        label: "GitHub"
+      }
   ];
 
   return (

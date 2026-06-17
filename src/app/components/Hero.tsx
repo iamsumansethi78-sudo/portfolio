@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Download, Mail, FolderOpen, TestTube2, Bug, Database, GitHub } from "lucide-react";
+import { Download, Mail, FolderOpen, TestTube2, Bug, Database, Github } from "lucide-react";
 
 export function Hero() {
   const resumePath = "/assets/resume.pdf";
@@ -158,7 +158,7 @@ export function Hero() {
               rel="noreferrer"
               className="group px-8 py-4 bg-white/5 backdrop-blur-sm border border-[#06B6D4]/30 rounded-full font-medium text-white hover:bg-white/10 hover:border-[#06B6D4]/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.3)] transition-all hover:scale-105 flex items-center gap-2"
             >
-              <GitHub size={20} />
+              <Github size={20} />
               View GitHub
             </a>
           </motion.div>
